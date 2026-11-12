@@ -1,0 +1,24 @@
+{
+  "name": "thordata",
+  "version": "0.1.0",
+  "description": "JavaScript SDK for the Thordata SERP API and Web Scraper",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/serp.js && node --check src/web-scraper.js && node --check src/errors.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["thordata", "serp", "search", "web-scraper", "sdk"],
+  "license": "MIT"
+}
