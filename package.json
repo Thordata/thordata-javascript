@@ -2,6 +2,18 @@
   "name": "thordata",
   "version": "0.1.0",
   "description": "JavaScript SDK for the Thordata SERP API and Web Scraper",
+  "author": {
+    "name": "Thordata",
+    "email": "cianna@thordata.com"
+  },
+  "homepage": "https://github.com/Thordata/thordata-javascript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thordata/thordata-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thordata/thordata-javascript/issues"
+  },
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "type": "commonjs",
