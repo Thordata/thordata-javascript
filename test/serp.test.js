@@ -11,7 +11,7 @@ const originalFetch = globalThis.fetch;
 
 test("basic SERP fixture matches the normalized form", () => {
   const fixture = JSON.parse(fs.readFileSync(
-    path.join(__dirname, "..", "..", "contract-fixtures", "serp", "basic-request.json"),
+    path.join(__dirname, "..", "contract-fixtures", "serp", "basic-request.json"),
     "utf8",
   ));
   assert.equal(fixture.form.engine, "google");

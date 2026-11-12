@@ -11,7 +11,7 @@ const {
 } = require("../src");
 
 test("shared contract fixtures match the wire envelopes", () => {
-  const root = path.join(__dirname, "..", "..", "contract-fixtures");
+  const root = path.join(__dirname, "..", "contract-fixtures");
   const serp = JSON.parse(fs.readFileSync(path.join(root, "serp", "envelopes.json"), "utf8"));
   const scraper = JSON.parse(fs.readFileSync(path.join(root, "web-scraper", "lifecycle.json"), "utf8"));
 
