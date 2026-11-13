@@ -3,7 +3,7 @@
 JavaScript/Node.js client for the Thordata SERP API and seven verified Web Scraper products. The package is independent of LangChain and requires Node.js 18 or newer.
 
 > **Next-generation Thordata JavaScript SDK for new projects.**
-> This repository is the future primary JavaScript/Node.js SDK and is being prepared for public npm release.
+> This repository is the future primary JavaScript/Node.js SDK and is now publicly available on npm.
 
 Turn live web data into reliable Node.js applications faster. Thordata JavaScript SDK gives developers one interface for real-time search and structured web scraping, making it easier to build research tools, monitoring services, data pipelines, RAG systems, and AI agents.
 
